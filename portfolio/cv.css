@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  /* background-color: blue; */
+  background-image: linear-gradient(to bottom right, rgb(228, 122, 141), rgb(231, 233, 108));
+}
+ .cvPic{
+  margin: 10px auto;
+ }
+.cvPic img {
+  width: 540px;
+  
+}

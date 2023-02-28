@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  background-color: rgb(95, 93, 93);
+  width: 250px;
+  font-family: 'Ubuntu', sans-serif;
+  height: 100vh;
+}
+
+.sidebar nav {
+  padding: 60px 21px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: rgb(3, 0, 0);
+
+}
+
+.main {
+
+  /* background-color: bisque; */
+  width: 90vw;
+  background-image: linear-gradient(to bottom right, rgb(130, 201, 223), yellow);
+}
+
+.infoContainer {
+  /* background-color: rgb(196, 41, 134); */
+  height: 57vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.devpic img {
+  height: 47vh;
+  margin: 19px auto;
+}
+
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hello {
+  font-size: 65px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.name {
+  font-size: 55px;
+  font-weight: bold;
+  font-family: 'Kanit', sans-serif;
+}
+
+.about {
+  margin-top: 10px;
+  font-size: 45px;
+  font-family: 'Kanit', sans-serif;
+  overflow: hidden;
+  border-right: .15em solid rgb(0, 0, 0);
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: typing 3s steps(30, end) forwards, blinking .8s infinite;
+
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+@keyframes blinking {
+  from {
+    border-color: transparent
+  }
+
+  to {
+    border-color: orange;
+  }
+}
+
+.buttons button {
+  height: 6vh;
+  width: 20vh;
+  border-radius: 5px;
+  margin: 20px 0;
+  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+  cursor: pointer;
+}
+
+.buttons button a {
+  text-decoration: none;
+  color: black;
+}
+
+.buttons button:hover {
+  background-color: rgb(161, 209, 225);
+}
+
+.contactform {
+  font-family: 'ubuntu', sans-serif;
+  padding: 150px 439px;
+  font-size: 19px;
+  height: 348px;
+  width: 377px;
+
+}
+
+.contactform h2 {
+  font-family: 'Nerko One', cursive;
+  /* text-align: center; */
+
+  overflow: hidden;
+  border-right: .15em solid rgb(0, 0, 0);
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: typing 3s steps(30, end) forwards, blinking .8s infinite;
+}
+
+#emailHelp {
+  font-size: 14px;
+}
+
+.contactform form div {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactform button {
+  height: 36px;
+  width: 98px;
+  font-size: 19px;
+  border-radius: 5px;
+  margin: 14px 146px;
+}
